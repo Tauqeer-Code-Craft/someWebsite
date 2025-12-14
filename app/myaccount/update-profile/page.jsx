@@ -35,7 +35,7 @@ const MyProfileUpdatePage = () => {
         {/* Header Section */}
         <div className="p-8 bg-white rounded-2xl border border-gray-100 shadow-lg transition-all duration-300 hover:shadow-xl">
           <div className="flex gap-6 items-center mb-4">
-            <div className="flex justify-center items-center w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl transition-transform duration-300 transform rotate-3 hover:rotate-6">
+            <div className="flex justify-center items-center w-12 h-12 bg-gradient-to-br from-blue-500 rounded-2xl transition-transform duration-300 transform rotate-3 hover:rotate-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6 text-white"
@@ -58,7 +58,7 @@ const MyProfileUpdatePage = () => {
           <div className="pl-4 border-l-4 border-purple-100 ml-18">
             <ul className="space-y-2">
               <li className="flex gap-2 items-center text-gray-600">
-                <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
+                <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
                 Update your personal information
               </li>
               <li className="flex gap-2 items-center text-gray-600">
