@@ -35,11 +35,11 @@ const AdminEventsPage = () => {
         {/* Header Section */}
         <div className="p-8 mb-8 bg-white rounded-2xl border-0 shadow-lg backdrop-blur-xl transition-all duration-300 hover:shadow-xl">
           <div className="flex gap-6 items-center mb-8">
-            <div className="flex justify-center items-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105 hover:rotate-3">
+            <div className="flex justify-center items-center w-16 h-16 bg-gradient-to-br from-blue-500   rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105 hover:rotate-3">
               <Calendar className="w-8 h-8 text-white" />
             </div>
             <div>
-              <h1 className="mb-2 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+              <h1 className="mb-2 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 ">
                 Manage Events
               </h1>
               <p className="text-lg text-gray-600">

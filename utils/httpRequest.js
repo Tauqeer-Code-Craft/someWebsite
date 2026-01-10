@@ -25,3 +25,4 @@ export default async (url, method, data, isMultipart) => {
     return { success: false, message: "Internal Server Error" };
   }
 };
+

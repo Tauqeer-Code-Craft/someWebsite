@@ -8,6 +8,8 @@ import {
 import { dispatch } from "@/redux/store";
 import httpRequest from "@/utils/httpRequest";
 
+export const dynamic = 'force-dynamic';
+
 const UserService = {
   getAuthStatus: async () => {
     const res = await httpRequest(`/api/auth`, HTTP_METHODS.GET);

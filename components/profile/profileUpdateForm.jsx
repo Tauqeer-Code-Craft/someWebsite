@@ -71,6 +71,15 @@ const UserProfileUpdateForm = ({ userDetails, updateUserDetails }) => {
       delete fields.profilePicture;
     }
 
+     if (Array.isArray(fields.links)) {
+    fields.links = fields.links
+      .filter(link => link?.url) // remove empty rows
+      .map(link => ({
+        label: link.label?.trim() || "Link",
+        url: link.url.trim(),
+      }));
+  }
+
     updateUserDetails(fields);
   };
 

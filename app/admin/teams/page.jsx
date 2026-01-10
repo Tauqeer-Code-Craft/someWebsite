@@ -43,11 +43,11 @@ const AdminTeamsPage = () => {
       <div className="mx-auto max-w-7xl">
         <div className="p-8 mb-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl">
           <div className="flex gap-4 items-center mb-6">
-            <div className="flex justify-center items-center w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl transition-all duration-300 transform hover:rotate-6 hover:scale-105">
+            <div className="flex justify-center items-center w-14 h-14 bg-gradient-to-br from-blue-500 rounded-2xl transition-all duration-300 transform hover:rotate-6 hover:scale-105">
               <TeamOutlined className="text-2xl text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+              <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600">
                 Manage Teams
               </h1>
               <p className="text-gray-600">Create and organize team sections</p>
@@ -84,7 +84,7 @@ const AdminTeamsPage = () => {
                     size="large"
                     onClick={createNewSection}
                     icon={<PlusOutlined />}
-                    className="min-w-[200px] bg-gradient-to-r from-blue-500 to-purple-500 border-0 transition-all duration-300 hover:scale-105"
+                    className="min-w-[200px] bg-gradient-to-r from-blue-500 border-0 transition-all duration-300 hover:scale-105"
                   >
                     Add New Section
                   </Button>
@@ -105,7 +105,7 @@ const AdminTeamsPage = () => {
                     size="large"
                     onClick={createNewSection}
                     icon={<PlusOutlined />}
-                    className="mt-6 min-w-[200px] bg-gradient-to-r from-blue-500 to-purple-500 border-0 transition-all duration-300 hover:scale-105"
+                    className="mt-6 min-w-[200px] bg-gradient-to-r from-blue-500 border-0 transition-all duration-300 hover:scale-105"
                   >
                     Create First Section
                   </Button>
